@@ -1,11 +1,11 @@
 # PROJET DOMOTICZ DE PILOTAGE DE MAISON PAR SMS
 
-##PRESENTATION:
+## PRESENTATION:
 
 Le but du projet présenté ici est de piloter une maison de campagne à distance sans internet (chauffage et arrosage automatique).
 Un projet permettant de détecter et d'identifier des pigeons voyageurs préalablement bagués avec des tags RFID a également été intégré.
 
-##MATERIEL:
+## MATERIEL:
 
 - Raspberry Pi 3 Model B + alimentation
 - RFXCOM 433 MHz
@@ -16,14 +16,14 @@ Un projet permettant de détecter et d'identifier des pigeons voyageurs préalab
 - 1 thermomètre/hygromètre 433MHz Oregon Scientific
 - Lecteur RFID USB et bagues rfid pour pigeons voyageurs
 
-##FONCTIONNALITES:
+## FONCTIONNALITES:
 
 - Commander l'arrosage du jardin pendant xx minutes.
 - Controle des radiateurs de la maison avec thermostat d'ambiance (trasmission d'une valeur de consigne)
 - Detection de l'entrée/sortie des pigeons voyageurs, chronométrage (mode "race") et gestion de la base de données "pigeons.csv"
 - Gestion des differents profils utilisateurs (user/admin)
 
-##APPLICATIF:
+## APPLICATIF:
 
 - SMS Gateway Android
 - RaspAP
@@ -31,7 +31,7 @@ Un projet permettant de détecter et d'identifier des pigeons voyageurs préalab
 - Gpsd & Ntpd
 - (Gammu)
 
-##INSTALLATION:
+## INSTALLATION:
 
 Variables utilisateurs à créer dans Domoticz:
 - sms
